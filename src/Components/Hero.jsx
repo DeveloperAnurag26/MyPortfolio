@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profilePic from "../assets/Anurag.jpg";
+import profilePic from "../assets/Profile_picture.jpg";
 
 export default function Hero() {
     return (
@@ -24,7 +24,7 @@ export default function Hero() {
                     Recently, I've been expanding my skill set into backend development—learning Node.js, Express, MongoDB, and exploring API integration and server-side logic—to grow into a well-rounded full-stack developer.
                     I'm also actively exploring how to integrate AI into frontend applications—from enhancing user interaction with AI-driven components (like chatbots and intelligent search) to leveraging APIs from platforms like OpenAI for real-time content generation, personalization, and automation.
 
-                    I enjoy solving real-world problems with efficient code, collaborating in cross-functional teams, and staying current with evolving web trends and technologies. My goal is to build scalable, performance, and impactful digital products from front to back.
+                    I enjoy solving real-world problems with efficient code and collaborating in cross-functional teams, and staying current with evolving web trends and technologies. My goal is to build scalable, performance, and impactful digital products from front to back.
                 </p>
             </motion.div>
 
@@ -37,7 +37,7 @@ export default function Hero() {
                <img
   src={profilePic}
   alt="Profile"
-  className="w-70 md:w-72 lg:w-80 h-auto object-cover rounded-full border-4 border-gray-500 shadow-lg"
+  className="w-90 md:w-72 lg:w-80 h-auto object-cover rounded-full border-4 border-gray-500 shadow-lg"
 />
             </motion.div>
         </section>

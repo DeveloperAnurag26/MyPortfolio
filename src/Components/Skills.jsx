@@ -1,6 +1,6 @@
 // src/components/Skills.jsx
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit } from "react-icons/fa";
-
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit , FaGithub, FaBootstrap,  } from "react-icons/fa";
+import { SiTypescript, SiTailwindcss, SiNextdotjs , SiPostman } from "react-icons/si";
 export default function Skills() {
   const skills = [
     { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
@@ -8,7 +8,14 @@ export default function Skills() {
     { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
     { name: "React", icon: <FaReact className="text-cyan-400" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-    { name: "Version Control", icon: <FaGit className="text-purple-500" /> },
+    { name: "Version Control", icon: <FaGit className="text-[#F05032]" /> },
+     { name: "Github", icon: <FaGithub className="text-[#181717]" /> },
+    { name: "TypeScript", icon: <SiTypescript className="text-sky-500" /> },
+        { name: "TailwindCss", icon: <SiTailwindcss className="text-sky-500" /> },
+         { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
+         { name: "Next.js", icon: <SiNextdotjs className="text-black" /> },
+         { name: "Postman", icon: <SiPostman className="text-[#FF6C37]" /> }
+        
   ];
 
   return (
