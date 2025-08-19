@@ -16,7 +16,7 @@ export default function Hero() {
                 className="md:w-1/2"
             >
                 <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
-                    Hi, I'm ANURAG PANDEY
+                    Hi, I'm <span style={{color: 'red'}}>ANURAG PANDEY</span>
                 </h1>
                 <p className="mt-4 font-serif text-xl text-gray-700 dark:text-gray-300">
                     Hi Everyone I am a frontend developer with a strong eye for design and detail, I specialize in building responsive, user-friendly web interfaces using modern technologies like HTML5, CSS3, JavaScript (ES6+), React.js, and TailwindCSS. My focus has always been on delivering clean, maintainable code and intuitive UI/UX that drive real user engagement.

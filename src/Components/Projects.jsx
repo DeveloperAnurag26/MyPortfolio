@@ -1,7 +1,9 @@
 // src/components/Projects.jsx
 import Ecommerce from "../assets/Ecommerce.png";
 import project2 from "../assets/project2.png";
-import tic from "../assets/tic.png";
+import Food_App from "../assets/Food_App.png";
+
+
 
 export default function Projects() {
   const projects = [
@@ -20,8 +22,8 @@ export default function Projects() {
     {
       title: "Tic-Tac-Toe Game",
       desc: "Creating a tic-tac-toe where you can play and check result.",
-      img: tic,
-      link: "https://tictactoegameanurag.netlify.app/",
+      img: Food_App,
+      link: "https://food-website-in-reactjs.vercel.app/",
     },
   ];
 
