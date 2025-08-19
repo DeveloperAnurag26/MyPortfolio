@@ -20,8 +20,8 @@ export default function Projects() {
       link: "https://starmartecommerce.netlify.app/",
     },
     {
-      title: "Tic-Tac-Toe Game",
-      desc: "Creating a tic-tac-toe where you can play and check result.",
+      title: "Food Web-App",
+      desc: "Order Delicious and Yummy Food and Cusine Quickly.",
       img: Food_App,
       link: "https://food-website-in-reactjs.vercel.app/",
     },
