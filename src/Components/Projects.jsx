@@ -8,10 +8,10 @@ import Food_App from "../assets/Food_App.png";
 export default function Projects() {
   const projects = [
     {
-      title: "Traveling Website",
-      desc: "Travel Website Where You Can Explore different things.",
+      title: "Movie App In React",
+      desc: "Created a Movie App using TMDB Api in react.",
       img: project2,
-      link: "https://bookanything.netlify.app/",
+      link: "https://movieapisearch.vercel.app/",
     },
     {
       title: "E-commerce App",
