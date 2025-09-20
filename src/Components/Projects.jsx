@@ -1,6 +1,6 @@
 // src/components/Projects.jsx
 import Ecommerce from "../assets/Ecommerce.png";
-import project2 from "../assets/project2.png";
+import project2 from "../assets/MovieApp.png";
 import Food_App from "../assets/Food_App.png";
 
 
@@ -14,17 +14,18 @@ export default function Projects() {
       link: "https://movieapisearch.vercel.app/",
     },
     {
-      title: "E-commerce App",
-      desc: "E-Commerece WebSite where you can check Electronics Accessories and different thing .",
-      img: Ecommerce,
-      link: "https://starmartecommerce.netlify.app/",
-    },
-    {
       title: "Food Web-App",
       desc: "Order Delicious and Yummy Food and Cusine Quickly.",
       img: Food_App,
       link: "https://food-website-in-reactjs.vercel.app/",
     },
+    {
+      title: "E-commerce App",
+      desc: "E-Commerece WebSite where you can check Electronics Accessories and different thing .",
+      img: Ecommerce,
+      link: "https://starmartecommerce.netlify.app/",
+    },
+    
   ];
 
   return (
