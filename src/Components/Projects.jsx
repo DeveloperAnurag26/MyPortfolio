@@ -11,7 +11,7 @@ export default function Projects() {
       title: "Movie App In React",
       desc: "Created a Movie App using TMDB Api in react.",
       img: project2,
-      link: "https://movieapisearch.vercel.app/",
+      link: "https://moviesearchreactapi.vercel.app/",
     },
     {
       title: "Food Web-App",
