@@ -20,7 +20,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-16 bg-gray-100 dark:bg-gray-800">
-      <h2 className="text-3xl font-bold text-center dark:text-white mb-10">Skills</h2>
+      <h2 className="text-3xl font-bold text-center dark:text-white mb-10">SKILLS</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
         {skills.map((skill, i) => (
           <div

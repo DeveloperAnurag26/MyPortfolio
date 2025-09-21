@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profilePic from "../assets/Profile_picture.jpg";
+import Pic from "../assets/pic.jpg";
 
 
 export default function Hero() {
@@ -21,7 +21,7 @@ export default function Hero() {
                     Hi, I'm ANURAG PANDEY
                 </h1>
                 <p className="mt-4 font-serif text-xl text-gray-700 dark:text-gray-300">
-                    Hi Everyone I am a frontend developer with a strong eye for design and detail, I specialize in building responsive, user-friendly web interfaces using modern technologies like HTML5, CSS3, JavaScript (ES6+), React.js, and TailwindCSS. My focus has always been on delivering clean, maintainable code and intuitive UI/UX that drive real user engagement.
+                    Hi Everyone I am a frontend developer with a strong eye for design and detail, I specialize in building responsive, user-friendly and Scalable web interfaces using modern technologies like HTML5, CSS3, JavaScript (ES6+), React.js, and TailwindCSS. My focus has always been on delivering clean, maintainable code and intuitive UI/UX that drive real user engagement.
 
                     Recently, I've been expanding my skill set into backend development—learning Node.js, Express, MongoDB, and exploring API integration and server-side logic—to grow into a well-rounded full-stack developer.
                     I'm also actively exploring how to integrate AI into frontend applications—from enhancing user interaction with AI-driven components (like chatbots and intelligent search) to leveraging APIs from platforms like OpenAI for real-time content generation, personalization, and automation.
@@ -32,13 +32,13 @@ export default function Hero() {
   <button
     style={{
         
-     border: "2px solid gray",
+     backgroundColor: 'rgba(58, 53, 222, 0.8)',
+     color: 'white',
       height: "60px",
       width: "140px",
       borderRadius: "15px",
       fontFamily: 'sans-serif',
       fontStyle: 'bold',
-      color:'red',
       marginTop: "80px",
       
 
@@ -58,7 +58,7 @@ export default function Hero() {
                 transition={{ duration: 1 }}
             >
                <img
-  src={profilePic}
+  src={Pic}
   alt="Profile"
   className="w-90 md:w-72 lg:w-80 h-auto object-cover rounded-full border-4 border-gray-500 shadow-lg"
 />

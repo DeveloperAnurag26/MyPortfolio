@@ -13,7 +13,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-16 bg-white dark:bg-gray-900">
-      <h2 className="text-3xl font-bold text-center dark:text-white mb-8">Contact Me</h2>
+      <h2 className="text-3xl font-bold text-center dark:text-white mb-8">CONTACT ME </h2>
       <form
         onSubmit={handleSubmit}
         className="max-w-xl mx-auto bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-lg flex flex-col gap-4"
@@ -45,7 +45,7 @@ export default function Contact() {
           onChange={handleChange}
           required
         />
-        <button type="submit" className="bg-blue-500 text-white p-3 rounded hover:bg-blue-600">
+        <button type="submit" className="bg-red-500 text-white p-3 rounded hover:bg-red-600">
           Send Message
         </button>
       </form>

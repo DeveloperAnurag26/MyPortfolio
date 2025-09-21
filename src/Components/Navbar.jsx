@@ -8,16 +8,16 @@ export default function Navbar({ toggleTheme, darkMode }) {
   const [navOpen, setNavOpen] = useState(false);
 
   const navLinks = [
-    { id: 1, name: "Home", link: "/" },
-    { id: 2, name: "Skills", link: "/#skills" },
-    { id: 3, name: "Projects", link: "/#projects" },
-    { id: 4, name: "Social", link: "/#social" },
-    { id: 5, name: "Contact", link: "/#contact" },
+    { id: 1, name: "HOME", link: "/" },
+    { id: 2, name: "SKILLS", link: "/#skills" },
+    { id: 3, name: "PROJECTS", link: "/#projects" },
+    { id: 4, name: "SOCIAL", link: "/#social" },
+    { id: 5, name: "CONTACTS", link: "/#contact" },
   ];
 
   return (
     <nav className="fixed w-full z-50 bg-white dark:bg-gray-900 shadow-md px-6 py-4 flex justify-between items-center">
-      <h1 className="text-2xl font-bold dark:text-white">Anurag Pandey</h1>
+      <h1 className="text-2xl font-bold dark:text-white">ANURAG PANDEY</h1>
 
       {/* Desktop Links */}
       <ul className="hidden md:flex gap-6">
