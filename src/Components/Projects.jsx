@@ -30,7 +30,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-16 bg-white dark:bg-gray-900">
-      <h2 className="text-3xl font-bold text-center dark:text-white mb-10">Projects</h2>
+      <h2 className="text-3xl font-bold text-center dark:text-white mb-10">FRONTED PROJECTS</h2>
       <div className="grid md:grid-cols-3 gap-8 px-4">
         {projects.map((proj, i) => (
           <div
