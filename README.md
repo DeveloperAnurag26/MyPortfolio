@@ -25,7 +25,18 @@ Welcome to my personal portfolio! This site showcases my skills, projects, and j
 
 📸 Screenshots-
 
-(![Portfolio Screenshot](Screenshots%202023-06-25%20220906.png))
+![Portfolio Screenshot](src/assets/screenshot.png)
+
+
+
+📸 Screenshots-
+![Portfolio Screenshot](src/assets/screenshot2.png)
+
+
+
+📸 Screenshots-
+![Portfolio Screenshot](src/assets/screenshot3.png)
+
 
 Live Preview - https://anuragji.vercel.app/
 
