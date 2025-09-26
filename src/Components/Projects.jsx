@@ -9,13 +9,13 @@ export default function Projects() {
   const projects = [
     {
       title: "Movie App In React",
-      desc: "Created a Movie App using TMDB Api in react.",
+      desc: "Created a Movie App using TMDB Api in  where user can Search any Movie and add it on your Favourite Section.",
       img: project2,
       link: "https://moviesearchreactapi.vercel.app/",
     },
     {
       title: "Food Web-App",
-      desc: "Order Delicious and Yummy Food and Cusine Quickly.",
+      desc: "Created a Food Web-App using reactjs where user can add to cart food and see total charge .",
       img: Food_App,
       link: "https://food-website-in-reactjs.vercel.app/",
     },
@@ -45,9 +45,9 @@ export default function Projects() {
                 href={proj.link}
                 target="_blank"
                 rel="noreferrer"
-                className="text-blue-500 hover:underline"
+                className="text-green-500 hover:underline font-mono text-xl   "
               >
-                View Project
+                Live Preview
               </a>
             </div>
           </div>

@@ -32,9 +32,10 @@ export default function Hero() {
   <button
     style={{
         
-     backgroundColor: 'rgba(58, 53, 222, 0.8)',
+     backgroundColor: 'orange',
      color: 'white',
       height: "60px",
+      fontSize: "25px",
       width: "140px",
       borderRadius: "15px",
       fontFamily: 'sans-serif',
@@ -45,7 +46,7 @@ export default function Hero() {
     }}
     
   >
-    DOWNLOAD RESUME
+     RESUME
   </button>
 </a>
 

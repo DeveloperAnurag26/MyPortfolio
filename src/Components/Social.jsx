@@ -10,7 +10,7 @@ export default function Social() {
 
   return (
     <section id="social" className="py-16 bg-gray-100 dark:bg-gray-800 text-center">
-      <h2 className="text-3xl font-bold dark:text-white mb-6">Connect With Me</h2>
+      <h2 className="text-3xl font-bold dark:text-white mb-6">CONNECT WITH ME</h2>
       <div className="flex justify-center gap-6">
         {socials.map((s, i) => (
           <a
