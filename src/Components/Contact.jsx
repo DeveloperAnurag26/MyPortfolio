@@ -45,7 +45,7 @@ export default function Contact() {
           onChange={handleChange}
           required
         />
-        <button type="submit" className="bg-red-500 text-white p-3 rounded hover:bg-red-600">
+        <button type="submit" className="bg-green-500 text-white p-3 rounded-xl hover:bg-green-400 text-2xl">
           Send Message
         </button>
       </form>

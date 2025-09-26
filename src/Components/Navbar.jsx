@@ -23,7 +23,7 @@ export default function Navbar({ toggleTheme, darkMode }) {
       <ul className="hidden md:flex gap-6">
         {navLinks.map(({ id, name, link }) => (
           <li key={id}>
-            <a href={link} className="text-gray-700 dark:text-gray-200 hover:text-blue-500 transition">{name}</a>
+            <a href={link} className="text-gray-700 dark:text-gray-200 hover:text-red-500 transition">{name}</a>
           </li>
         ))}
         <button onClick={toggleTheme} className="ml-4 text-xl">
@@ -45,7 +45,7 @@ export default function Navbar({ toggleTheme, darkMode }) {
       {navOpen && (
         <div className="absolute top-16 left-0 w-full bg-white dark:bg-gray-900 flex flex-col items-center py-6 gap-4 md:hidden">
           {navLinks.map(({ id, name, link }) => (
-            <a key={id} href={link} className="text-lg text-gray-800 dark:text-gray-200 hover:text-blue-500" onClick={() => setNavOpen(false)}>
+            <a key={id} href={link} className="text-lg text-gray-800 dark:text-gray-200 hover:text-red-500" onClick={() => setNavOpen(false)}>
               {name}
             </a>
           ))}
