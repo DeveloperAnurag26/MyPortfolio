@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Pic from "../assets/pic.jpg";
+import Pic from "../assets/profile.1.png";
 
 
 export default function Hero() {
@@ -21,18 +21,24 @@ export default function Hero() {
                     Hi, I'm ANURAG PANDEY
                 </h1>
                 <p className="mt-4 font-serif text-xl text-gray-700 dark:text-gray-300">
-                    Hi Everyone I am a frontend developer with a strong eye for design and detail, I specialize in building responsive, user-friendly and Scalable web interfaces using modern technologies like HTML5, CSS3, JavaScript (ES6+), React.js, and TailwindCSS. My focus has always been on delivering clean, maintainable code and intuitive UI/UX that drive real user engagement.
+                   Hi Everyone 👋 I’m Anurag Pandey, a passionate Full Stack Developer who loves building fast, scalable, and visually appealing digital products.
 
-                    Recently, I've been expanding my skill set into backend development—learning Node.js, Express, MongoDB, and exploring API integration and server-side logic—to grow into a well-rounded full-stack developer.
-                    I'm also actively exploring how to integrate AI into frontend applications—from enhancing user interaction with AI-driven components (like chatbots and intelligent search) to leveraging APIs from platforms like OpenAI for real-time content generation, personalization, and automation.
+I specialize in frontend development using React.js, JavaScript (ES6+), Next.js, HTML5, CSS3, and TailwindCSS, with a strong eye for clean UI and intuitive UX that keeps users engaged.
 
-                    I enjoy solving real-world problems with efficient code and collaborating in cross-functional teams, and staying current with evolving web trends and technologies. My goal is to build scalable, performance, and impactful digital products from front to back.
+Recently, I’ve been expanding my skill set into backend development — learning Node.js, Express, and MongoDB, exploring API integration, authentication, and server-side logic to become a well-rounded developer.
+I have also learning Aws Cloud and how CI and CD Pipeline works .
+
+I’m also interested in AI-driven web experiences, integrating intelligent chatbots, personalized recommendations, and automation features into modern web applications.
+
+💡 My goal is to build impactful digital products that solve real-world problems, perform seamlessly, and deliver meaningful user experiences from front to back.
+
+🚀 Always open to collaboration, freelance projects, and full-time opportunities in Frontend or Full Stack roles.
                 </p>
        <a href="/Resume.pdf" download>
   <button
     style={{
         
-     backgroundColor: 'orange',
+     backgroundColor: 'red',
      color: 'white',
       height: "60px",
       fontSize: "25px",
@@ -53,17 +59,17 @@ export default function Hero() {
             </motion.div>
 
             {/* Profile Image */}
-            <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ duration: 1 }}
-            >
-               <img
-  src={Pic}
-  alt="Profile"
-  className="w-90 md:w-72 lg:w-80 h-auto object-cover rounded-full border-4 border-gray-500 shadow-lg"
-/>
-            </motion.div>
+    <motion.div
+  initial={{ scale: 0 }}
+  animate={{ scale: 1 }}
+  transition={{ duration: 1 }}
+>
+  <img
+    src={Pic}
+    alt="Profile"
+    className="w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 object-cover rounded-full border-4 border-gray-500 shadow-lg"
+  />
+</motion.div>
 
             
         </section>
