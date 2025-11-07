@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Pic from "../assets/profile.1.png";
+import Pic from "../assets/profiles.png";
 
 
 export default function Hero() {
@@ -18,10 +18,10 @@ export default function Hero() {
                 className="md:w-1/2"
             >
                 <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
-                    Hi, I'm ANURAG PANDEY
+                    Hi, I'm <span style={{color: 'red'}}>ANURAG PANDEY</span> 
                 </h1>
                 <p className="mt-4 font-serif text-xl text-gray-700 dark:text-gray-300">
-                   Hi Everyone 👋 I’m Anurag Pandey, a passionate Full Stack Developer who loves building fast, scalable, and visually appealing digital products.
+                   Hi Everyone 👋Anurag Pandey a passionate Full Stack Developer who loves building fast, scalable, and visually appealing digital products.
 
 I specialize in frontend development using React.js, JavaScript (ES6+), Next.js, HTML5, CSS3, and TailwindCSS, with a strong eye for clean UI and intuitive UX that keeps users engaged.
 
@@ -38,8 +38,8 @@ I’m also interested in AI-driven web experiences, integrating intelligent chat
   <button
     style={{
         
-     backgroundColor: 'red',
-     color: 'white',
+     backgroundColor: 'gray',
+     color: 'black',
       height: "60px",
       fontSize: "25px",
       width: "140px",
