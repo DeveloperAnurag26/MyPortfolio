@@ -34,7 +34,7 @@ I’m also interested in AI-driven web experiences, integrating intelligent chat
 
 🚀 Always open to collaboration, freelance projects, and full-time opportunities in Frontend or Full Stack roles.
                 </p>
-       <a href="/Resume.pdf" download>
+       <a href="/Anurag_Pandey_Resume.pdf" download>
   <button
     style={{
         
