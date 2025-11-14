@@ -18,7 +18,7 @@ export default function Hero() {
                 className="md:w-1/2"
             >
                 <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
-                    Hi, I'm <span style={{color: 'red'}}>ANURAG PANDEY</span> 
+                    Hi, I'm ANURAG PANDEY
                 </h1>
                 <p className="mt-4 font-serif text-xl text-gray-700 dark:text-gray-300">
                    Hi Everyone 👋Anurag Pandey a passionate Full Stack Developer who loves building fast, scalable, and visually appealing digital products.
@@ -34,12 +34,12 @@ I’m also interested in AI-driven web experiences, integrating intelligent chat
 
 🚀 Always open to collaboration, freelance projects, and full-time opportunities in Frontend or Full Stack roles.
                 </p>
-       <a href="/AnuragPandey_Resume.pdf" download>
+       <a href="/Ayush_resume.pdf" download>
   <button
     style={{
         
-     backgroundColor: 'gray',
-     color: 'black',
+    border: '2px solid gray',
+    color:'red',
       height: "60px",
       fontSize: "25px",
       width: "140px",
